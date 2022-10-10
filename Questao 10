@@ -1,0 +1,27 @@
+import  java.util.*;
+class Main {
+  public static void main(String[] args) {
+    
+  Scanner ler = new Scanner(System.in);
+  
+  double inicio, soma; 
+  double mult = +1;
+  
+
+  System.out.print("Primeiro numero: ");
+  inicio = ler.nextDouble ();  
+
+    for (int i = 2; i <=inicio; inicio--){
+      mult = inicio * (mult);
+      soma = mult;
+      System.out.println (inicio + " = " + soma);
+      System.out.println ("");
+      }
+      
+      System.out.print  ("Este é o fatorial de: " + inicio);
+  
+      }
+    }
+  
+
+  
