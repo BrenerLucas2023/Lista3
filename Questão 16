@@ -1,0 +1,33 @@
+
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+
+    Scanner ler = new Scanner(System.in);
+
+    int  nota; 
+    int  maior = Integer.MIN_VALUE;
+    int  menor = Integer.MAX_VALUE;
+
+
+    for (int i = 0; i < 5; i ++){ 
+      System.out.println ("Informe a " + (i+1) + "° nota: ");
+      nota = ler.nextInt();
+    
+    
+       
+    if (nota >= maior){ 
+        maior = nota;
+    }
+    
+    if (nota <= menor) { 
+      menor = nota;
+      
+     }
+     }
+    
+    System.out.println ("A maior nota é: " + maior);
+    System.out.println ("A menor nota é: "  + menor);
+  }
+}
+
